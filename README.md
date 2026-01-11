@@ -1,23 +1,100 @@
-# Data Analysis Projects
+# 📊 Data Analysis Portfolio
 
-A collection of data analysis projects demonstrating skills in Python, pandas, and data visualization.
+A curated collection of data analysis projects demonstrating proficiency in **Python**, **pandas**, **statistical analysis**, and **data visualization**. Each project tackles real-world business problems with actionable insights.
 
-## Projects
+---
 
-### 1. Instacart Market Basket Analysis
-Analysis of Instacart grocery ordering data to understand customer purchasing patterns, popular products, and ordering behaviors.
+## 🚀 Featured Projects
 
-### 2. Telecom Revenue Analysis
-Analysis of telecommunications revenue data to identify trends and insights.
+### 1. Telecom Revenue Optimization – Statistical Hypothesis Testing in Python
+**Business Goal:** Determine which prepaid mobile plan generates more revenue to optimize advertising budget allocation.
 
-### 3. Video Game Sales Analysis
-Exploration of video game sales data to understand market trends and performance across different platforms and genres.
+| | |
+|---|---|
+| **Skills** | Statistical hypothesis testing, A/B analysis, revenue modeling, data aggregation |
+| **Tools** | Python, pandas, SciPy, Matplotlib |
+| **Key Insight** | Identified the higher-revenue plan through rigorous statistical testing, enabling data-driven marketing spend decisions |
 
-## Technologies Used
-- Python
-- pandas
-- Matplotlib
-- Jupyter Notebooks
+| 📄 View Project | 🔗 Links |
+|---|---|
+| Interactive HTML | **[▶️ View in Browser](https://htmlpreview.github.io/?https://github.com/felimonj958-droid/data-analysis-projects/blob/main/html/telecom_revenue.html)** |
+| Source Code | [telecom_revenue.ipynb](./telecom_revenue.ipynb) |
 
-## Author
-Felimon Jimenez
+---
+
+### 2. Video Game Market Analysis – Sales Pattern Recognition & Forecasting
+**Business Goal:** Identify patterns that determine video game success to inform advertising campaign planning for an online retailer.
+
+| | |
+|---|---|
+| **Skills** | Exploratory data analysis, market segmentation, trend analysis, predictive insights |
+| **Tools** | Python, pandas, Matplotlib, NumPy |
+| **Key Insight** | Uncovered platform lifecycle patterns and regional preferences to guide strategic marketing investments |
+
+| 📄 View Project | 🔗 Links |
+|---|---|
+| Interactive HTML | **[▶️ View in Browser](https://htmlpreview.github.io/?https://github.com/felimonj958-droid/data-analysis-projects/blob/main/html/video_game_sales_analysis.html)** |
+| Source Code | [video_game_sales_analysis.ipynb](./video_game_sales_analysis.ipynb) |
+
+---
+
+### 3. Instacart Customer Behavior Analysis – E-Commerce Purchase Patterns
+**Business Goal:** Analyze grocery ordering patterns to understand customer behavior, product popularity, and reorder trends.
+
+| | |
+|---|---|
+| **Skills** | Data cleaning, exploratory analysis, customer segmentation, behavioral analytics |
+| **Tools** | Python, pandas, Matplotlib |
+| **Key Insight** | Revealed weekly ordering cycles, peak shopping hours, and top reordered products to inform inventory and promotion strategies |
+
+| 📄 View Project | 🔗 Links |
+|---|---|
+| Interactive HTML | **[▶️ View in Browser](https://htmlpreview.github.io/?https://github.com/felimonj958-droid/data-analysis-projects/blob/main/html/instacart_analysis.html)** |
+| Source Code | [instacart_analysis.ipynb](./instacart_analysis.ipynb) |
+
+---
+
+## 🛠️ Technical Skills Demonstrated
+
+| Category | Technologies |
+|----------|-------------|
+| **Languages** | Python, SQL |
+| **Data Analysis** | pandas, NumPy, SciPy |
+| **Visualization** | Matplotlib, Seaborn |
+| **Statistical Methods** | Hypothesis Testing, A/B Testing, Descriptive Statistics |
+| **Tools** | Jupyter Notebooks, Git |
+
+---
+
+## 📁 Repository Structure
+
+```
+data-analysis-projects/
+├── README.md
+├── html/                              # Browser-viewable HTML exports
+│   ├── telecom_revenue.html
+│   ├── video_game_sales_analysis.html
+│   └── instacart_analysis.html
+├── telecom_revenue.ipynb              # Telecom statistical analysis
+├── video_game_sales_analysis.ipynb    # Video game market analysis
+└── instacart_analysis.ipynb           # E-commerce behavior analysis
+```
+
+---
+
+## 👤 About
+
+**Felimon Jimenez**  
+Data Analyst | Python | SQL | Statistical Analysis
+
+[![GitHub](https://img.shields.io/badge/GitHub-felimonj958--droid-181717?style=flat&logo=github)](https://github.com/felimonj958-droid)
+
+---
+
+## 📬 Contact
+
+Open to discussing data analysis opportunities and collaborations.
+
+---
+
+*Last updated: January 2026*
