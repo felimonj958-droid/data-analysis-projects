@@ -2,6 +2,8 @@
 
 A curated collection of data analysis projects demonstrating proficiency in **Python**, **pandas**, **statistical analysis**, and **data visualization**. Each project tackles real-world business problems with actionable insights.
 
+## 🌐 [View Portfolio Website](https://felimonj958-droid.github.io/data-analysis-projects/)
+
 ---
 
 ## 🚀 Featured Projects
@@ -17,7 +19,7 @@ A curated collection of data analysis projects demonstrating proficiency in **Py
 
 | 📄 View Project | 🔗 Links |
 |---|---|
-| Interactive HTML | **[▶️ View in Browser](https://htmlpreview.github.io/?https://github.com/felimonj958-droid/data-analysis-projects/blob/main/html/telecom_revenue.html)** |
+| **Live Analysis** | **[▶️ View in Browser](https://felimonj958-droid.github.io/data-analysis-projects/telecom_revenue.html)** |
 | Source Code | [telecom_revenue.ipynb](./telecom_revenue.ipynb) |
 
 ---
@@ -33,7 +35,7 @@ A curated collection of data analysis projects demonstrating proficiency in **Py
 
 | 📄 View Project | 🔗 Links |
 |---|---|
-| Interactive HTML | **[▶️ View in Browser](https://htmlpreview.github.io/?https://github.com/felimonj958-droid/data-analysis-projects/blob/main/html/video_game_sales_analysis.html)** |
+| **Live Analysis** | **[▶️ View in Browser](https://felimonj958-droid.github.io/data-analysis-projects/video_game_sales_analysis.html)** |
 | Source Code | [video_game_sales_analysis.ipynb](./video_game_sales_analysis.ipynb) |
 
 ---
@@ -49,7 +51,7 @@ A curated collection of data analysis projects demonstrating proficiency in **Py
 
 | 📄 View Project | 🔗 Links |
 |---|---|
-| Interactive HTML | **[▶️ View in Browser](https://htmlpreview.github.io/?https://github.com/felimonj958-droid/data-analysis-projects/blob/main/html/instacart_analysis.html)** |
+| **Live Analysis** | **[▶️ View in Browser](https://felimonj958-droid.github.io/data-analysis-projects/instacart_analysis.html)** |
 | Source Code | [instacart_analysis.ipynb](./instacart_analysis.ipynb) |
 
 ---
@@ -71,7 +73,8 @@ A curated collection of data analysis projects demonstrating proficiency in **Py
 ```
 data-analysis-projects/
 ├── README.md
-├── html/                              # Browser-viewable HTML exports
+├── docs/                              # GitHub Pages website
+│   ├── index.html                     # Portfolio landing page
 │   ├── telecom_revenue.html
 │   ├── video_game_sales_analysis.html
 │   └── instacart_analysis.html
@@ -88,6 +91,7 @@ data-analysis-projects/
 Data Analyst | Python | SQL | Statistical Analysis
 
 [![GitHub](https://img.shields.io/badge/GitHub-felimonj958--droid-181717?style=flat&logo=github)](https://github.com/felimonj958-droid)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Live-2563eb?style=flat&logo=github-pages)](https://felimonj958-droid.github.io/data-analysis-projects/)
 
 ---
 

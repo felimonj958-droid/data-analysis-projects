@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analysis Portfolio | Felimon Jimenez</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+        header {
+            text-align: center;
+            padding: 3rem 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 3rem;
+        }
+        h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .subtitle { color: var(--text-muted); font-size: 1.1rem; }
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .skill {
+            background: var(--primary);
+            color: white;
+            padding: 0.35rem 0.85rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        .projects { display: grid; gap: 1.5rem; }
+        .project {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.75rem;
+            transition: box-shadow 0.2s, transform 0.2s;
+        }
+        .project:hover {
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            transform: translateY(-2px);
+        }
+        .project h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+        .project-goal {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+        .project-meta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+        .meta-item {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+        .meta-item strong { color: var(--text); }
+        .project-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.65rem 1.25rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        .btn-primary:hover { background: var(--primary-dark); }
+        .btn-secondary {
+            background: var(--bg);
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+        .btn-secondary:hover { background: var(--border); }
+        .insight {
+            background: #f0fdf4;
+            border-left: 3px solid #22c55e;
+            padding: 0.75rem 1rem;
+            margin-top: 1rem;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.9rem;
+        }
+        .insight strong { color: #166534; }
+        footer {
+            text-align: center;
+            padding: 3rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid var(--border);
+            color: var(--text-muted);
+        }
+        footer a { color: var(--primary); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        @media (max-width: 600px) {
+            h1 { font-size: 1.75rem; }
+            .container { padding: 1rem; }
+            .project { padding: 1.25rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Data Analysis Portfolio</h1>
+            <p class="subtitle">Felimon Jimenez — Turning data into actionable business insights</p>
+            <div class="skills">
+                <span class="skill">Python</span>
+                <span class="skill">pandas</span>
+                <span class="skill">SQL</span>
+                <span class="skill">Statistical Analysis</span>
+                <span class="skill">Data Visualization</span>
+            </div>
+        </header>
+
+        <div class="projects">
+            <article class="project">
+                <h2>📱 Telecom Revenue Optimization</h2>
+                <p class="project-goal">Determine which prepaid mobile plan generates more revenue to optimize advertising budget allocation.</p>
+                <div class="project-meta">
+                    <span class="meta-item"><strong>Methods:</strong> Statistical Hypothesis Testing, A/B Analysis</span>
+                    <span class="meta-item"><strong>Tools:</strong> Python, pandas, SciPy, Matplotlib</span>
+                </div>
+                <div class="insight">
+                    <strong>Key Insight:</strong> Identified the higher-revenue plan through rigorous statistical testing, enabling data-driven marketing decisions.
+                </div>
+                <div class="project-links">
+                    <a href="telecom_revenue.html" class="btn btn-primary">▶️ View Full Analysis</a>
+                    <a href="https://github.com/felimonj958-droid/data-analysis-projects/blob/main/telecom_revenue.ipynb" class="btn btn-secondary">📄 Source Code</a>
+                </div>
+            </article>
+
+            <article class="project">
+                <h2>🎮 Video Game Market Analysis</h2>
+                <p class="project-goal">Identify patterns that determine video game success to inform advertising campaign planning for an online retailer.</p>
+                <div class="project-meta">
+                    <span class="meta-item"><strong>Methods:</strong> EDA, Market Segmentation, Trend Analysis</span>
+                    <span class="meta-item"><strong>Tools:</strong> Python, pandas, Matplotlib, NumPy</span>
+                </div>
+                <div class="insight">
+                    <strong>Key Insight:</strong> Uncovered platform lifecycle patterns and regional preferences to guide strategic marketing investments.
+                </div>
+                <div class="project-links">
+                    <a href="video_game_sales_analysis.html" class="btn btn-primary">▶️ View Full Analysis</a>
+                    <a href="https://github.com/felimonj958-droid/data-analysis-projects/blob/main/video_game_sales_analysis.ipynb" class="btn btn-secondary">📄 Source Code</a>
+                </div>
+            </article>
+
+            <article class="project">
+                <h2>🛒 Instacart Customer Behavior Analysis</h2>
+                <p class="project-goal">Analyze grocery ordering patterns to understand customer behavior, product popularity, and reorder trends.</p>
+                <div class="project-meta">
+                    <span class="meta-item"><strong>Methods:</strong> Data Cleaning, Behavioral Analytics, Customer Segmentation</span>
+                    <span class="meta-item"><strong>Tools:</strong> Python, pandas, Matplotlib</span>
+                </div>
+                <div class="insight">
+                    <strong>Key Insight:</strong> Revealed weekly ordering cycles, peak shopping hours, and top reordered products to inform inventory strategies.
+                </div>
+                <div class="project-links">
+                    <a href="instacart_analysis.html" class="btn btn-primary">▶️ View Full Analysis</a>
+                    <a href="https://github.com/felimonj958-droid/data-analysis-projects/blob/main/instacart_analysis.ipynb" class="btn btn-secondary">📄 Source Code</a>
+                </div>
+            </article>
+        </div>
+
+        <footer>
+            <p><strong>Felimon Jimenez</strong> — Data Analyst</p>
+            <p style="margin-top: 0.5rem;">
+                <a href="https://github.com/felimonj958-droid/data-analysis-projects">GitHub Repository</a>
+            </p>
+            <p style="margin-top: 1rem; font-size: 0.85rem;">Open to data analysis opportunities and collaborations</p>
+        </footer>
+    </div>
+</body>
+</html>
